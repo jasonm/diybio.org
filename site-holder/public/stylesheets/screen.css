@@ -1,0 +1,296 @@
+body {
+  margin: 10px 0 0 0; padding: 0;
+  font-family: Times, "Georgia", "Times New Roman", serif;
+  color: #333;
+  background: #fff url(/images/topgradient.png) repeat-x;
+  text-align: center;
+}
+
+a:link, a:visited { color: #000; }
+/* a:hover { color: #fff; background-color: #333; text-decoration: none; } */
+
+pre { width: 100%; padding-bottom: 24px; }
+
+
+.highlight {
+  background-color: #ffc;
+}
+
+.clearall, .clearallrule {
+  margin: 0 0 10px;
+  padding: 10px 0 0 0;
+  clear: both;
+  font-size: 2px;
+}
+
+.clearallrule {
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 10px 0 1px 0px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #390;
+  font-weight: bold;
+  padding: 0;
+}
+
+h3 {
+  margin: 20px 0 3px 0;
+  color: #666;
+  font-size: 11px;
+  padding: 0;
+  font-weight: normal;
+}
+
+div.header-message {
+  margin: 0 auto 30px auto;
+  text-align: center;
+  width: 926px;
+}
+
+.img a {
+  border: none;
+}
+
+/*** Header ***/
+
+div#header {
+  text-align: center;
+  margin: 15px 0 10px 0;
+}
+
+div#header div#nav {
+  font-size: 10px;
+  color: #999;
+}
+
+div#header div#nav a:link,
+div#header div#nav a:visited {
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+}
+
+div#header div#nav a:hover {
+  color: #fff;
+}
+
+div#header div#nav a.current:hover {
+  color: #000;
+}
+
+div#header a.current:link,
+div#header a.current:visited,
+div#header a.current:hover {
+  text-decoration: none;
+  background: none;
+  color: #800;
+}
+
+div#header div.clearall {
+  margin: 0 0 20px;
+  padding: 0;
+  clear: both;
+  font-size: 2px;
+}
+
+
+body.overview h1 {
+  font-family:arial,"Lucida Grande",helvetica,sans-serif;
+  font-size:24px;
+  font-weight:bold;
+  margin:0 0 8px;
+}
+
+body.overview h1 a {
+  color:#2E7DCD;
+  text-decoration:none;
+}
+
+body.overview h1 a:hover {
+  background-color: #fff;
+}
+
+body.overview h1 span {
+        color: #999;
+        font-size: 58%;
+}
+
+div.message {
+        margin: 100px auto 10px auto;
+}
+
+body.overview div.content {
+  width: 900px;
+  margin: 40px auto 0px auto;
+  text-align: left;
+}
+
+
+body.overview div.content div.main {
+  float: left;
+  width: 307px;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+body.overview div.content div.main h1 {
+  font-family: georgia;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: right;
+}
+
+body.overview div.content div.sub {
+  float: right;
+  width: 575px;
+}
+
+body.overview div.content p, body.overview div.content p.noindent {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-top: 0;
+  font-family: georgia;
+  margin-bottom: 8px;
+}
+
+body.overview div.content p a {
+  color: #369;
+}
+
+body.overview div.content h2 span {
+  color: #333;
+  padding: 4px;
+}
+
+body.overview div.content img {
+  margin: 0 10px 5px 0;
+}
+
+body.overview div.header-message {
+  text-align: center;
+}
+
+body.overview table {
+  margin: 0 auto 50px auto;
+}
+
+body.overview table td {
+  text-align: center;
+}
+
+body.overview div.content span.highlight {
+  font-weight: normal;
+  background-color: #ffc;
+}
+
+body.overview div.content p a:hover {
+  background-color: #F4DDA6;
+}
+
+/*** Calls to action ***/
+
+div.calls-to-action {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+div.announce {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-color: #981A21;
+  font-size: 11px;
+  padding: 5px;
+  color: #fff;
+}
+
+div.calls-to-action h2 {
+  font-family: arial, "Lucida Grande", helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+div.calls-to-action h2 a {
+  color: #2e7dcd;
+  text-decoration: none;
+}
+
+div.calls-to-action a {
+  color: #000;
+}
+div.calls-to-action td p a {
+  text-decoration: none;
+}
+
+div.calls-to-action a:hover {
+background: #fff;
+}
+
+div.announce a, div.announce a:visited {
+  color: #fff;
+}
+
+div.calls-to-action h3 {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+div.calls-to-action p {
+  font-size: 15px;
+  margin: 0;
+}
+
+div.calls-to-action li {
+  font-size: 9px;
+  list-style: none;
+  text-align: left;
+  margin: 0; padding: 0;
+}
+
+table, div.calls-to-action table {
+  margin: 0 auto;
+}
+
+div.calls-to-action table td {
+  text-align: center;
+  vertical-align: top;
+  padding: 0 10px;
+  width: 175px;
+}
+
+div.calls-to-action img {
+  padding: 1px;
+  margin: 0 7px 5px 7px;
+}
+
+div.calls-to-action img.bordered {
+  border: 1px solid #ccc;
+}
+
+img.bordered {
+  padding: 2px;
+  border: 2px solid #ccc;
+}
+
+img { border-width:0; }
+a.no_link_hover:hover { background: none !important; }
+
+/*** Footer ***/
+div.copyright {
+  font-size: 11px;
+  color: #666;
+}
+
