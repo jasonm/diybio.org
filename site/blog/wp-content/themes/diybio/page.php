@@ -16,6 +16,6 @@
 	<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 	</div>
 
-<!-- ?php get_sidebar(); ? -->
+<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
