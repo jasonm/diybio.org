@@ -37,16 +37,13 @@ table {
 
 div#header {
   text-align: center;
-  margin: 15px 0 10px 0;
-}
-
-div#header div#breadcrumbs {
+  margin: 10px 0;
   font-size: 10px;
   color: #999;
 }
 
-div#header div#breadcrumbs a:link,
-div#header div#breadcrumbs a:visited {
+#header #breadcrumbs a:link,
+#header #breadcrumbs a:visited {
   font-size: 11px;
   font-weight: bold;
   color: #000;
@@ -56,8 +53,10 @@ div#header div#breadcrumbs a:hover {
   color: #fff;
 }
 
-div#header div#breadcrumbs a.current:hover {
-  color: #000;
+#header #breadcrumbs a.current:link,
+#header #breadcrumbs a.current:hover,
+#header #breadcrumbs a.current:visited {
+  color: #fff;
 }
 
 div#header a.current:link,
@@ -108,21 +107,14 @@ body.overview div.content {
   text-align: left;
 }
 
-body.overview div.content div.main {
+body.overview div.content div.thumb {
   float: left;
   width: 307px;
   text-align: right;
   margin-bottom: 32px;
 }
 
-body.overview div.content div.main h1 {
-  font-family: georgia;
-  font-size: 28px;
-  font-weight: normal;
-  text-align: right;
-}
-
-body.overview div.content div.sub {
+body.overview div.content div.details {
   float: right;
   width: 575px;
 }
@@ -138,23 +130,6 @@ body.overview div.content h2 span {
 
 body.overview div.content img {
   margin: 0 10px 5px 0;
-}
-
-body.overview table {
-  margin: 0 auto 50px auto;
-}
-
-body.overview table td {
-  text-align: center;
-}
-
-body.overview div.content span.highlight {
-  font-weight: normal;
-  background-color: #ffc;
-}
-
-body.overview div.content p a:hover {
-  background-color: #F4DDA6;
 }
 
 /*** Calls to action ***/
@@ -207,7 +182,7 @@ a.no_link_hover:hover { background: none !important; }
 div#footer {
   font-family:arial,"Lucida Grande",helvetica,sans-serif;
   background-color: #98c804;
-  margin: 0;
+  margin: 80px 0 0 0;
   padding: 0;
   color: #fff;
 }
@@ -218,6 +193,8 @@ div#footer>ul {
   width: 600px;
   list-style: none;
 
+  line-height: 32px;
+  color: #fff;
   font-size: 16px;
   color: #333;
   font-weight: bold;
@@ -236,7 +213,7 @@ div#footer>ul>li>ul {
 
 div#footer>ul>li>ul>li a{
   font-size: 14px;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: normal;
   line-height: 2em;
   color: #fff;
@@ -252,4 +229,5 @@ div#copyright {
 
 #copyright img {
   vertical-align: middle;
+  margin-right: 12px;
 }
