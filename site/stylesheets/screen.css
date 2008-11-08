@@ -87,6 +87,7 @@ div.message {
   width: 800px;
   margin: 100px auto 10px auto;
 }
+
 div.message img {
   float: left;
 }
@@ -231,3 +232,34 @@ div#copyright {
   vertical-align: middle;
   margin-right: 12px;
 }
+
+/** Blog */
+.byline {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.comments-line {
+  font-style: italic;
+  text-align: right;
+}
+
+.post {
+  margin: 0 auto 30px auto;
+  width: 800px;
+  margin: 100px auto 10px auto;
+}
+
+.post img {
+  float: left;
+}
+
+.post h1 {
+  font-family:"Lucida Grande",helvetica,arial,sans-serif;
+  font-size: 36px;
+}
+
+.post p {
+  line-height: 1.4em;
+}
+
