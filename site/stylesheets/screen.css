@@ -36,35 +36,24 @@ table {
 /*** Header ***/
 
 div#header {
+  font-family:arial,"Lucida Grande",helvetica,sans-serif;
   text-align: center;
-  margin: 10px 0;
+  margin: 10`px 0;
   font-size: 10px;
   color: #999;
 }
 
-#header #breadcrumbs a:link,
-#header #breadcrumbs a:visited {
-  font-size: 11px;
-  font-weight: bold;
-  color: #000;
-}
-
-div#header div#breadcrumbs a:hover {
-  color: #fff;
-}
-
-#header #breadcrumbs a.current:link,
-#header #breadcrumbs a.current:hover,
-#header #breadcrumbs a.current:visited {
-  color: #fff;
-}
-
-div#header a.current:link,
-div#header a.current:visited,
-div#header a.current:hover {
+#topnav a {
+  font-size: 16px;
   text-decoration: none;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+#topnav a.current {
   background: none;
-  color: #800;
+  background-color: #fff;
+  color: #000;
 }
 
 div#header div.clearall {
@@ -73,7 +62,6 @@ div#header div.clearall {
   clear: both;
   font-size: 2px;
 }
-
 
 body.overview h1 {
   font-family:arial,"Lucida Grande",helvetica,sans-serif;
@@ -106,6 +94,7 @@ body.overview div.content {
   width: 900px;
   margin: 40px auto 0px auto;
   text-align: left;
+  clear: both;
 }
 
 body.overview div.content div.thumb {
@@ -244,10 +233,27 @@ div#copyright {
   text-align: right;
 }
 
-.post {
-  margin: 0 auto 30px auto;
+.blog-header {
   width: 800px;
-  margin: 100px auto 10px auto;
+  margin: 50px auto;
+}
+
+.blog-header img {
+  float: left;
+}
+
+.blog-header h1 {
+  font-family:"Lucida Grande",helvetica,arial,sans-serif;
+  font-size: 36px;
+}
+
+.blog-header p {
+  line-height: 1.4em;
+}
+
+.post {
+  width: 800px;
+  margin: 50px auto 10px auto;
 }
 
 .post img {
